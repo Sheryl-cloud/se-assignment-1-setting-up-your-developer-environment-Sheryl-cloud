@@ -12,7 +12,6 @@ This assignment aims to familiarize you with the tools and configurations necess
 
 1. Select Your Operating System (OS):
    Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
-   Certainly! Here's a step-by-step guide on how to install Windows 11:
 
 The first step is to Make sure your computer meets the system requirements for Windows 11 and Back up any important data on your computer to prevent data loss during the installation process.
 
@@ -55,16 +54,12 @@ Step 9: Install Drivers and Updates
 2. Visit the manufacturer's website for your computer or individual components to download and install the latest drivers.
 3. Install any available Windows updates to ensure your system is up to date.
 
-Step 10: Enjoy Windows 11
-1. Once all drivers and updates are installed, you're ready to enjoy Windows 11!
-2. Explore the new features and improvements, and customize your system to your liking.
-
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
    Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
 
 Step 1: Download Visual Studio Code
-1. Open your web browser and navigate to the official Visual Studio Code website: [Visual Studio Code](https://code.visualstudio.com/).
+1. Open your web browser and navigate to the official Visual Studio Code website:(https://code.visualstudio.com/).
 2. Once on the website, you'll see a prominent "Download for Windows" button. Click on it to start downloading the installer.
 
 Step 2: Run the Installer
@@ -90,6 +85,7 @@ Step 6: Optional - Install Extension
 1. Visual Studio Code supports a wide range of extensions that enhance its functionality for various programming languages and workflows.
 2. To install extensions, click on the Extensions view icon in the Activity Bar on the side of the window (or press Ctrl+Shift+X).
 3. Search for the extensions you want to install, then click the "Install" button next to each extension.
+![alt text](<vs code.png>)
 
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
@@ -102,13 +98,13 @@ Step 1: Install Git
 Step 2: Configure Git
 1. Open a terminal or command prompt.
 2. Set your name with the following command, replacing "Your Name" with your actual name:
-   ```
+   
    git config --global user.name "Your Name"
-   ```
+   
 3. Set your email address with the following command, replacing "your.email@example.com" with your actual email address:
-   ```
+   
    git config --global user.email "your.email@example.com"
-   ```
+   
 
 Step 3: Create a GitHub Account
 1. Visit the GitHub website: [GitHub](https://github.com).
@@ -118,22 +114,18 @@ Step 4: Initialize a Git Repository
 1. Open a terminal or command prompt.
 2. Navigate to the directory where you want to create your project. Use the `cd` command to change directories.
 3. Initialize a new Git repository by running the following command:
-   ```
+
    git init
-   ```
+   
 4. This command will create a hidden `.git` directory in your project folder, which Git uses to store information about the repository.
 
 Step 5: Make Your First Commit
 1. Create some files in your project directory or add existing files to the directory.
 2. Add the files to the staging area with the following command:
-   ```
    git add .
-   ```
    This command adds all files in the current directory to the staging area. If you only want to add specific files, replace `.` with the file names.
 3. Commit the changes to the repository with a descriptive message using the following command:
-   ```
    git commit -m "Initial commit"
-   ```
    Replace `"Initial commit"` with your own commit message describing the changes you made.
 4. Congratulations! You've made your first commit to your Git repository.
 
@@ -167,10 +159,9 @@ Step 4: Customize Python Installation (Optional)
 Step 5: Verify Python Installation
 1. After the installation is complete, open a command prompt or terminal window.
 2. Type the following command and press Enter:
-   ```
    python --version
-   ```
    This command will display the installed Python version. If you see the version number, Python is successfully installed.
+   ![alt text](python.png)
 
 
 
@@ -182,21 +173,16 @@ Step 1: Open Command Prompt or Terminal
 
 Step 2: Upgrade pip
    - Run the following command:
-     ```
      python -m pip install --upgrade pip
-     ```
    This command will upgrade `pip` to the latest version available.
 
 Step 3: Verify Installation
    - To verify that `pip` has been successfully installed and upgraded, you can run:
-     ```
      pip --version
-     ```
    This command will display the version of `pip` installed on your system.
+   
 
-Step 4: (Optional) Install Additional Package Managers
-   - Depending on your project's requirements, you might need to install additional package managers. For example, if you're working with JavaScript, you might need to install npm (Node Package Manager). Similarly, if you're working with Ruby, you might need to install RubyGems.
-   - Follow the installation instructions provided on the respective websites for npm, RubyGems, or any other package manager you need.
+
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
@@ -236,11 +222,13 @@ Step 7: Complete the Installation
 2. Click "Next" to proceed.
 3. Optionally, you can choose to start MySQL Workbench or MySQL Shell immediately after installation.
 4. Click "Finish" to exit the installer.
+![alt text](mysql.png)
 
 Step 8: Verify MySQL Installation
 1. Open MySQL Workbench if you installed it, or open a command prompt.
 2. Run the command to verify that the MySQL server is running
    You'll be prompted to enter the root password that you set during installation.
+   ![alt text](workbench.png)
 
 
 7. Set Up Development Environments and Virtualization (Optional):
